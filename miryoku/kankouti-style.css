@@ -50,6 +50,10 @@
     height: 320px;
 }
 
+.bg-yellow-p {
+    position: relative;   
+}
+
 .bg-yellow {
     background-color: yellow;
 }
