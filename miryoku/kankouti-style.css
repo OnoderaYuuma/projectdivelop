@@ -51,9 +51,55 @@
 }
 
 .bg-yellow-p {
-    position: relative;   
+    position: relative; 
+    background-color: yellow;
+    width: 300px;
+    height: 256px;  
+    border-radius: 10px;
+    top: -239px;
+    left: 115px;
+    z-index: -1;
 }
 
 .bg-yellow {
     background-color: yellow;
+}
+
+#tyu .title {
+    font-size: 72px;
+    color: white;
+    margin: 30px 0 0 60px;
+}
+
+.text {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    margin: 150px 0 0 100px;
+    letter-spacing : 1px;
+}
+
+.bg-white {
+    background-color: white;
+    height: 100px;
+}
+
+#tera {
+    width: 100%;
+    height: 780px;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+#tera:before {
+    content: '';
+    background-image: url(img/寺町通り.png);
+    background-size: cover;
+    position: absolute;
+    width: 1263px;
+    height: 780px;
+    filter: blur(3px);
+    z-index: -1;
 }
