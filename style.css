@@ -1,0 +1,49 @@
+header {
+    background-color: gray;
+    display: flex;
+    /* text-align: right; */
+    position: relative;
+    height: 70px;
+}
+
+header h1 {
+    margin: 7px 0 0 20px;
+}
+
+header .btn {
+    display:block;
+    position: absolute;
+    /* right: 0; */
+    top: 15px;
+    right: 5%;
+    height: 40px;
+    width: 80px;
+}
+
+header .btn2 {
+    right: 15%;
+}
+
+#carouselExample {
+    height: 700px;
+}
+
+#carouselExample img {
+    width: 1000px;
+    padding-left: 220px;
+}
+
+.bg-sky {
+    background-color: skyblue;
+}
+
+#mokuji {
+    text-align: center;
+    height: 100px;
+    font-size: 32px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: gray;
+}
