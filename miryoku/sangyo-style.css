@@ -1,0 +1,15 @@
+.nav {
+    margin: 50px;
+    padding: 10px 0 0 10px;
+    border: solid;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.bg-white {
+    background-color: white;
+    height: 100px;
+}

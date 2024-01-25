@@ -1,0 +1,65 @@
+.bg-img {
+    background-image: url(img/food_top.png);
+    background-size: 100%;
+    height: 700px;
+}
+
+#top-p {
+    font-size: 156px;
+    color: white;
+    padding: 60px 550px;
+}
+
+.nav {
+    margin: 50px;
+    padding: 10px 0 0 10px;
+    border: solid;
+    border-radius: 20px;
+}
+
+#wanko {
+    width: 100%;
+    height: 710px;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+#wanko:before {
+    content: '';
+    background-image: url(img/wanko.png);
+    background-size: cover;
+    position: absolute;
+    width: 1263px;
+    height: 710px;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+#wanko img {
+    width: 640px;
+    height: 427px;
+    margin: 100px 0 0 90px;
+}
+
+#wanko .bg-red {
+    background-color: red;
+    width: 640px;
+    height: 427px;
+    position: relative;
+    top: -410px;
+    left: 105px;
+    z-index: -1;
+}
+
+#wanko-p {
+    padding: 5px 15px;
+}
+
+#jajamen img {
+    width: 100%;
+}
+
+#jajamen-p {
+    padding: 0px 20px;
+}
