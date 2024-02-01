@@ -15,35 +15,56 @@
         <button type="button" class="btn btn-light btn2">ライター</button>
     </header>
 
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/image (1).png" class="d-block" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="img/image (2).png" class="d-block" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="img/Mt.iwate.jpg" class="d-block" alt="mt.iwate">
-          </div>
+    <div id="carouselExampleIndicators" class="carousel slide"style="margin: 25px 190px;" > 
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="img/image.png" class="d-block w-100" alt="...">
         </div>
-        <button class="carousel-control-prev text-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon text-secondary" aria-hidden="true"></span>
-          <span class="visually-hidden text-secondary">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="img/wankosoba (1).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Mt.iwate.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <p class="bg-sky" id="mokuji">もくじ</p>
+
+    <div class="content sightseeing">
+      <a class="content-btn" href="./miryoku/kankouti.html"><span><img  class="sightseeing-logo" src="./img/sightseeing.png"></span>観光地</a>
+    </div>
+
+    <div class="content food">
+      <a class="content-btn" href="#"><span><img  class="food-logo" src="./img/お茶碗と箸.png"></span>　食　</a>
+    </div>
+
+    <div class="content sangyou">
+      <a class="content-btn" href="#"><span><img  class="sangyou-logo" src="./img/海老のイラスト素材2.png"></span>産　業</a>
+    </div>
+
+    <div class="content maturi">
+      <a class="content-btn" href="#"><span><img  class="maturi-logo" src="./img/maturi.png"></span>祭　り</a>
+    </div>
 
     <div>
 
     </div>
 
     <footer>
-      a
+      
     </footer>
 </body>
 </html>
