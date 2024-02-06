@@ -11,17 +11,25 @@
 </head>
 <body>
     <header>
-        <h1>Logo</h1>
-        <button type="button" class="btn btn-light">魅力</button>
-        <button type="button" class="btn btn-light btn2">ライター</button>
-    </header>
+        <h1>岩手の紹介</h1>
+        <button onclick="location.href='#'" type="button" class="btn btn-light">ホーム</button>
+        <div class="cp_ipselect cp_sl01">
+          <select required onChange="location.href=value;">
+            <option value="" hidden>ライター</option>
+            <option value="writer/kaji.html">かじ</option>
+            <option value="writer/yuma.html">ゆうま</option>
+            <option value="writer/hiroto.html">ひろと</option>
+            <option value="writer/hatano.html">ゆうと</option>
+          </select>
+          </div>
+      </header>
 
     <p class="writer">ライター紹介</p>
 
     <div class="flex">
         <div class="half leftblock">
             <img src="img/kaji.png" alt="kaji">
-            <p class="name">野月平家事</p>
+            <p class="name">野月平快士</p>
         </div>
 
         <div class="half">
@@ -33,12 +41,12 @@
             <div class="block">
                 <p class="p1">・コメント</p>
                 <p class="p2">>></p>
-                <p class="p3">僕は何もしてません</p>
+                <p class="p3">冬眠しますスヤスヤ</p>
             </div>
             <div class="block">
                 <p class="p1">・趣味</p>
                 <p class="p2">>></p>
-                <p class="p3">トロール下げラン</p>
+                <p class="p3">貝拾い、砂場遊び</p>
             </div>
         </div>
     </div>
